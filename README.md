@@ -2,11 +2,11 @@
 
 This tool finds T-optimal approximations of single-qubit Z-rotations using quantum circuits consisting of Clifford and T gates.
 
-The algorithm and method are presented in [ref2].  Here we only take the result and package it inside a short python script. 
+The algorithm and method are presented in [ref1].  Here we only take the result and package it inside a short python script. 
 
 The interface is for HiQ/ProjectQ. However, one can easily modify it to other QSAM such as IBM or Rigetti's.
 
-![image-20191118221700801](Rz.jpg)
+![image-20191118221700801](https://github.com/QuContractor/ZRotation/blob/master/figs/Rz.jpg)
 
 ```python
 from zrot import * 
@@ -53,4 +53,4 @@ The length is: 27
 
 ### Reference
 
-1. arXiv: 1212.6964, Practical approximation of single-qubit unitaries by single-qubit quantum Clifford and T circuits
+1. [arXiv: 1212.6964](https://arxiv.org/abs/1212.6964 ), Practical approximation of single-qubit unitaries by single-qubit quantum Clifford and T circuits
